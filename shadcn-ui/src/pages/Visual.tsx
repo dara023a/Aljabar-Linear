@@ -57,7 +57,7 @@ export default function Visual() {
           <Button
             onClick={() => navigate('/result')}
             variant="ghost"
-            className="text-primary-400 hover:bg-primary-100"
+            className="text-primary-400 hover:bg-primary-200"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Kembali ke Hasil
@@ -65,7 +65,7 @@ export default function Visual() {
           <Button
             onClick={() => navigate('/input')}
             variant="outline"
-            className="border-primary-200 text-primary-400 hover:bg-primary-100"
+            className="border-primary-200 text-primary-400 hover:bg-primary-200"
           >
             Input Data Baru
           </Button>

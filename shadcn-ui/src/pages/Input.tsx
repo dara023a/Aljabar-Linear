@@ -38,7 +38,7 @@ export default function Input() {
           <Button
             onClick={() => navigate('/')}
             variant="ghost"
-            className="text-primary-400 hover:bg-primary-100"
+            className="text-primary-400 hover:bg-primary-200"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Kembali ke Beranda

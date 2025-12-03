@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl font-bold mb-6 text-primary-400"
         >
-          Kalkulator SPL
+          Simulasi Perhitungan SPL
         </motion.h1>
 
         <motion.p

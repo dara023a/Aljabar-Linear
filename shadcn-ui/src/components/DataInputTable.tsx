@@ -55,7 +55,7 @@ export default function DataInputTable({ data, setData, onCalculate }: DataInput
           Input Data Perjalanan
         </CardTitle>
         <CardDescription className="text-lg text-primary-400/80">
-          Masukkan data jarak, waktu, dan biaya perjalanan Grab (minimal 3 baris)
+          Masukkan data jarak, waktu, dan biaya perjalanan Grab (terbatas 3 baris)
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -70,7 +70,7 @@ export default function DataInputTable({ data, setData, onCalculate }: DataInput
           <Button
             onClick={loadDummyData}
             variant="outline"
-            className="border-primary-300 text-primary-400 hover:bg-primary-100"
+            className="border-primary-300 text-primary-400 hover:bg-primary-200"
           >
             <Database className="mr-2 h-4 w-4" />
             Muat Contoh Data
@@ -78,7 +78,7 @@ export default function DataInputTable({ data, setData, onCalculate }: DataInput
           <Button
             onClick={clearAllData}
             variant="outline"
-            className="border-destructive/50 text-destructive hover:bg-destructive/10"
+            className="border-destructive/50 text-destructive hover:bg-destructive/70"
           >
             <Trash2 className="mr-2 h-4 w-4" />
             Hapus Semua

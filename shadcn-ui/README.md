@@ -1,4 +1,4 @@
-# 🧮 Kalkulator SPL - Analisis Biaya Grab
+# 🧮 Simulasi Perhitungan SPL - Analisis Biaya Grab
 
 Aplikasi web modern untuk menghitung **Sistem Persamaan Linear (SPL)** menggunakan metode **Eliminasi Gauss** dan **Gauss-Jordan** untuk analisis biaya transportasi Grab.
 
